@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.databinding.ItemTaskBinding
 
+
 class TaskAdapter(
     private var tasks: List<Task>,
     private val onTaskClick: (Task) -> Unit,
