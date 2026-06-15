@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         databaseHelper = TaskDatabaseHelper(this)
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainContainer)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(16, systemBars.top, 16, systemBars.bottom)
             insets
